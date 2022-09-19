@@ -10,7 +10,6 @@ Original file is located at
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 data = pd.read_csv('/content/healthcare-dataset-stroke-data.csv')
 
@@ -97,7 +96,6 @@ data['bmi'].describe()
 
 corr = pd.DataFrame.corr(data)
 
-sns.heatmap(corr,linewidth=1)
 
 corr
 
