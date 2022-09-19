@@ -4,6 +4,8 @@ from fastapi import FastAPI
 from Inputs import IFeatures
 import pickle
 from sklearn.preprocessing import StandardScaler
+import pandas as pd
+import numpy as np
 import heartstrokenewtry
 # scaler = StandardScaler()
 app = FastAPI()
