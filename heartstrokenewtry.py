@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-data = pd.read_csv('/content/healthcare-dataset-stroke-data.csv')
+data = pd.read_csv('./healthcare-dataset-stroke-data.csv')
 
 data.head()
 
