@@ -4,6 +4,7 @@ from fastapi import FastAPI
 from Inputs import IFeatures
 import pickle
 from sklearn.preprocessing import StandardScaler
+import heartstrokenewtry
 # scaler = StandardScaler()
 app = FastAPI()
 model = pickle.load(open(r"G:\Projects_to_compete\HearDiseasePredictor\randfor96.pkl","rb"))
